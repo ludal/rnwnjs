@@ -6,7 +6,7 @@ import { MotiLink } from 'solito/moti'
 
 export function HomeScreen() {
   return (
-    <View className="flex-1 items-center justify-center p-3">
+    <View className="items-center justify-center flex-1 p-3">
       <H1>Welcome to Solito.</H1>
       <View className="max-w-xl">
         <P className="text-center">
@@ -14,7 +14,7 @@ export function HomeScreen() {
           screen to another. This screen uses the same code on Next.js and React
           Native.
         </P>
-        <P className="text-center">
+        <P className="text-center font-display">
           Solito is made by{' '}
           <A
             href="https://twitter.com/fernandotherojo"
